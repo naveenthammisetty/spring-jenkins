@@ -18,7 +18,8 @@ public class SpringJenkinsApplication {
     }
 
     public static void main(String[] args) {
-    	logger.info("Spring Boot Application Executed...");
+    	logger.info("Spring Boot Application Logger two Executed...");
+        logger.info("Spring Boot Application Logger three Executed...");
         SpringApplication.run(SpringJenkinsApplication.class, args);
     }
 }
